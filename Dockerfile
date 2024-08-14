@@ -18,5 +18,4 @@ COPY ./server/package-lock.json ./
 COPY ./server/index.js ./
 RUN npm ci --omit-dev
 
-ENV PORT=8083
 CMD node index.js
